@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'olondona';
+            src: url(fonts/Olondona.otf) format('opentype'), url(fonts/OldLondon.ttf)
+            format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        /*
+            Tipos de Format ()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple advanced typography)
+            - svg
+        */
+        }
+        body{
+            font-family: olondona, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'olondona', Times, serif;
+            font-size: 3em;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>pLorem ipsum dolor sit amet, consectetur adipisicing elit. Amet temporibus earum aut quaerat accusantium nemo cum molestias excepturi dignissimos? Vel voluptates dolore a officia fugiat dicta vero esse quod expedita?</p>
+    
+</body>
+</html>
